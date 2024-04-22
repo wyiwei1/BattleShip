@@ -13,6 +13,7 @@ Please take a look at these rules  even if  you have played Battleship before in
 Remember this is a  Human vs. Computer  version.  
 The computer places the  ten ships  on the ocean in such a way that no ships are immediately adjacent to each other, either horizontally, vertically, or diagonally. Take a look at the following diagrams for examples of legal and illegal placements: 
  **![](https://lh7-us.googleusercontent.com/j5_0yq440Zi-q3zLgE4GNrnA1WYOggkOROVT4Y6rPa-trty3CCDnkkbS0_TW3LH9nGpFc7KfjQB5CUvDz7IrasvLiaacUwUcSlBfx79aZzciFypQWCWAxdX-XPr7jkfoKAUnqNQtvgOp85d780FHnmI)**
+
 The human player does not know where the ships are. The initial display of the ocean printed  to the console therefore shows a 10 by 10 array of ‘.‘ (see the description of the  Ocean  class’  
 print()  method below for more information on what subsequent ocean displays will  look like).  
 The human player tries to hit the ships, by indicating a specific row and column number (r,c).  
